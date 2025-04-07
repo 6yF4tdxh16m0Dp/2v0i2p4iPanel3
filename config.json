@@ -1,1 +1,275 @@
-ewogICJkbnMiOiB7CiAgICAiaG9zdHMiOiB7CiAgICAgICJnZW9zaXRlOmNhdGVnb3J5LWFkcy1hbGwiOiAiMTI3LjAuMC4xIiwKICAgICAgImRvbWFpbjpnb29nbGVhcGlzLmNuIjogImdvb2dsZWFwaXMuY29tIiwKICAgICAgImRucy5hbGlkbnMuY29tIjogWwogICAgICAgICIyMjMuNS41LjUiLAogICAgICAgICIyMjMuNi42LjYiLAogICAgICAgICIyNDAwOjMyMDA6OjEiLAogICAgICAgICIyNDAwOjMyMDA6YmFiYTo6MSIKICAgICAgXSwKICAgICAgIm9uZS5vbmUub25lLm9uZSI6IFsKICAgICAgICAiMS4xLjEuMSIsCiAgICAgICAgIjEuMC4wLjEiLAogICAgICAgICIyNjA2OjQ3MDA6NDcwMDo6MTExMSIsCiAgICAgICAgIjI2MDY6NDcwMDo0NzAwOjoxMDAxIgogICAgICBdLAogICAgICAiZG90LnB1YiI6IFsKICAgICAgICAiMS4xMi4xMi4xMiIsCiAgICAgICAgIjEyMC41My41My41MyIKICAgICAgXSwKICAgICAgImRucy5nb29nbGUiOiBbCiAgICAgICAgIjguOC44LjgiLAogICAgICAgICI4LjguNC40IiwKICAgICAgICAiMjAwMTo0ODYwOjQ4NjA6Ojg4ODgiLAogICAgICAgICIyMDAxOjQ4NjA6NDg2MDo6ODg0NCIKICAgICAgXSwKICAgICAgImRucy5xdWFkOS5uZXQiOiBbCiAgICAgICAgIjkuOS45LjkiLAogICAgICAgICIxNDkuMTEyLjExMi4xMTIiLAogICAgICAgICIyNjIwOmZlOjpmZSIsCiAgICAgICAgIjI2MjA6ZmU6OjkiCiAgICAgIF0sCiAgICAgICJjb21tb24uZG90LmRucy55YW5kZXgubmV0IjogWwogICAgICAgICI3Ny44OC44LjgiLAogICAgICAgICI3Ny44OC44LjEiLAogICAgICAgICIyYTAyOjZiODo6ZmVlZDowZmYiLAogICAgICAgICIyYTAyOjZiODowOjE6OmZlZWQ6MGZmIgogICAgICBdCiAgICB9LAogICAgInNlcnZlcnMiOiBbCiAgICAgICIxLjEuMS4xIiwKICAgICAgewogICAgICAgICJhZGRyZXNzIjogIjEuMS4xLjEiLAogICAgICAgICJkb21haW5zIjogWwogICAgICAgICAgImRvbWFpbjpnb29nbGVhcGlzLmNuIiwKICAgICAgICAgICJkb21haW46Z3N0YXRpYy5jb20iCiAgICAgICAgXQogICAgICB9LAogICAgICB7CiAgICAgICAgImFkZHJlc3MiOiAiMjIzLjUuNS41IiwKICAgICAgICAiZG9tYWlucyI6IFsKICAgICAgICAgICJkb21haW46YWxpZG5zLmNvbSIsCiAgICAgICAgICAiZG9tYWluOmRvaC5wdWIiLAogICAgICAgICAgImRvbWFpbjpkb3QucHViIiwKICAgICAgICAgICJkb21haW46MzYwLmNuIiwKICAgICAgICAgICJkb21haW46b25lZG5zLm5ldCIsCiAgICAgICAgICAiZ2Vvc2l0ZTpjbiIKICAgICAgICBdLAogICAgICAgICJleHBlY3RJUHMiOiBbCiAgICAgICAgICAiZ2VvaXA6Y24iCiAgICAgICAgXSwKICAgICAgICAic2tpcEZhbGxiYWNrIjogdHJ1ZQogICAgICB9CiAgICBdCiAgfSwKICAiaW5ib3VuZHMiOiBbCiAgICB7CiAgICAgICJwb3J0IjogMTA4MDgsCiAgICAgICJwcm90b2NvbCI6ICJzb2NrcyIsCiAgICAgICJzZXR0aW5ncyI6IHsKICAgICAgICAiYXV0aCI6ICJub2F1dGgiLAogICAgICAgICJ1ZHAiOiB0cnVlLAogICAgICAgICJ1c2VyTGV2ZWwiOiA4CiAgICAgIH0sCiAgICAgICJzbmlmZmluZyI6IHsKICAgICAgICAiZGVzdE92ZXJyaWRlIjogWwogICAgICAgICAgImh0dHAiLAogICAgICAgICAgInRscyIKICAgICAgICBdLAogICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAicm91dGVPbmx5IjogZmFsc2UKICAgICAgfSwKICAgICAgInRhZyI6ICJzb2NrcyIKICAgIH0KICBdLAogICJsb2ciOiB7CiAgICAibG9nbGV2ZWwiOiAid2FybmluZyIKICB9LAogICJvdXRib3VuZHMiOiBbCiAgICB7CiAgICAgICJtdXgiOiB7CiAgICAgICAgImNvbmN1cnJlbmN5IjogLTEsCiAgICAgICAgImVuYWJsZWQiOiBmYWxzZQogICAgICB9LAogICAgICAicHJvdG9jb2wiOiAidmxlc3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInZuZXh0IjogWwogICAgICAgICAgewogICAgICAgICAgICAiYWRkcmVzcyI6ICIxNDEuMTEuMS41OCIsCiAgICAgICAgICAgICJwb3J0IjogNTE4NTEsCiAgICAgICAgICAgICJ1c2VycyI6IFsKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiZW5jcnlwdGlvbiI6ICJub25lIiwKICAgICAgICAgICAgICAgICJpZCI6ICI3YjE1NzYwZi1kMzVhLTQ3YmEtYmRhZS1jZGUzOGUxYWRmNGMiLAogICAgICAgICAgICAgICAgImxldmVsIjogOAogICAgICAgICAgICAgIH0KICAgICAgICAgICAgXQogICAgICAgICAgfQogICAgICAgIF0KICAgICAgfSwKICAgICAgInN0cmVhbVNldHRpbmdzIjogewogICAgICAgICJncnBjU2V0dGluZ3MiOiB7CiAgICAgICAgICAiYXV0aG9yaXR5IjogIiIsCiAgICAgICAgICAiaGVhbHRoX2NoZWNrX3RpbWVvdXQiOiAyMCwKICAgICAgICAgICJpZGxlX3RpbWVvdXQiOiA2MCwKICAgICAgICAgICJtdWx0aU1vZGUiOiBmYWxzZSwKICAgICAgICAgICJzZXJ2aWNlTmFtZSI6ICIiCiAgICAgICAgfSwKICAgICAgICAibmV0d29yayI6ICJncnBjIiwKICAgICAgICAicmVhbGl0eVNldHRpbmdzIjogewogICAgICAgICAgImFsbG93SW5zZWN1cmUiOiBmYWxzZSwKICAgICAgICAgICJmaW5nZXJwcmludCI6ICJjaHJvbWUiLAogICAgICAgICAgInB1YmxpY0tleSI6ICI5TlZjY3pWdWZsUHp0T1dYZU5BalNTR1kxOFNZOUd3M1M0V2JlX3kydVVBIiwKICAgICAgICAgICJzZXJ2ZXJOYW1lIjogInNvdXJjZWZvcmdlLm5ldCIsCiAgICAgICAgICAic2hvcnRJZCI6ICIxNTg2Y2QxYyIsCiAgICAgICAgICAic2hvdyI6IGZhbHNlLAogICAgICAgICAgInNwaWRlclgiOiAiLyIKICAgICAgICB9LAogICAgICAgICJzZWN1cml0eSI6ICJyZWFsaXR5IgogICAgICB9LAogICAgICAidGFnIjogInByb3h5IgogICAgfSwKICAgIHsKICAgICAgInByb3RvY29sIjogImZyZWVkb20iLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgImRvbWFpblN0cmF0ZWd5IjogIlVzZUlQIgogICAgICB9LAogICAgICAidGFnIjogImRpcmVjdCIKICAgIH0sCiAgICB7CiAgICAgICJwcm90b2NvbCI6ICJibGFja2hvbGUiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInJlc3BvbnNlIjogewogICAgICAgICAgInR5cGUiOiAiaHR0cCIKICAgICAgICB9CiAgICAgIH0sCiAgICAgICJ0YWciOiAiYmxvY2siCiAgICB9CiAgXSwKICAicmVtYXJrcyI6ICJJcHY0IHRlc3QiLAogICJyb3V0aW5nIjogewogICAgImRvbWFpblN0cmF0ZWd5IjogIklQSWZOb25NYXRjaCIsCiAgICAicnVsZXMiOiBbCiAgICAgIHsKICAgICAgICAiaXAiOiBbCiAgICAgICAgICAiMS4xLjEuMSIKICAgICAgICBdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJwcm94eSIsCiAgICAgICAgInBvcnQiOiAiNTMiLAogICAgICAgICJ0eXBlIjogImZpZWxkIgogICAgICB9LAogICAgICB7CiAgICAgICAgImlwIjogWwogICAgICAgICAgIjIyMy41LjUuNSIKICAgICAgICBdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJkaXJlY3QiLAogICAgICAgICJwb3J0IjogIjUzIiwKICAgICAgICAidHlwZSI6ICJmaWVsZCIKICAgICAgfSwKICAgICAgewogICAgICAgICJkb21haW4iOiBbCiAgICAgICAgICAiZG9tYWluOmdvb2dsZWFwaXMuY24iLAogICAgICAgICAgImRvbWFpbjpnc3RhdGljLmNvbSIKICAgICAgICBdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJwcm94eSIsCiAgICAgICAgInR5cGUiOiAiZmllbGQiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAibmV0d29yayI6ICJ1ZHAiLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJibG9jayIsCiAgICAgICAgInBvcnQiOiAiNDQzIiwKICAgICAgICAidHlwZSI6ICJmaWVsZCIKICAgICAgfSwKICAgICAgewogICAgICAgICJkb21haW4iOiBbCiAgICAgICAgICAiZ2Vvc2l0ZTpjYXRlZ29yeS1hZHMtYWxsIgogICAgICAgIF0sCiAgICAgICAgIm91dGJvdW5kVGFnIjogImJsb2NrIiwKICAgICAgICAidHlwZSI6ICJmaWVsZCIKICAgICAgfSwKICAgICAgewogICAgICAgICJpcCI6IFsKICAgICAgICAgICJnZW9pcDpwcml2YXRlIgogICAgICAgIF0sCiAgICAgICAgIm91dGJvdW5kVGFnIjogImRpcmVjdCIsCiAgICAgICAgInR5cGUiOiAiZmllbGQiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiZG9tYWluIjogWwogICAgICAgICAgImdlb3NpdGU6cHJpdmF0ZSIKICAgICAgICBdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJkaXJlY3QiLAogICAgICAgICJ0eXBlIjogImZpZWxkIgogICAgICB9LAogICAgICB7CiAgICAgICAgImlwIjogWwogICAgICAgICAgIjIyMy41LjUuNSIsCiAgICAgICAgICAiMjIzLjYuNi42IiwKICAgICAgICAgICIyNDAwOjMyMDA6OjEiLAogICAgICAgICAgIjI0MDA6MzIwMDpiYWJhOjoxIiwKICAgICAgICAgICIxMTkuMjkuMjkuMjkiLAogICAgICAgICAgIjEuMTIuMTIuMTIiLAogICAgICAgICAgIjEyMC41My41My41MyIsCiAgICAgICAgICAiMjQwMjo0ZTAwOjoiLAogICAgICAgICAgIjI0MDI6NGUwMDoxOjoiLAogICAgICAgICAgIjE4MC43Ni43Ni43NiIsCiAgICAgICAgICAiMjQwMDpkYTAwOjo2NjY2IiwKICAgICAgICAgICIxMTQuMTE0LjExNC4xMTQiLAogICAgICAgICAgIjExNC4xMTQuMTE1LjExNSIsCiAgICAgICAgICAiMTE0LjExNC4xMTQuMTE5IiwKICAgICAgICAgICIxMTQuMTE0LjExNS4xMTkiLAogICAgICAgICAgIjExNC4xMTQuMTE0LjExMCIsCiAgICAgICAgICAiMTE0LjExNC4xMTUuMTEwIiwKICAgICAgICAgICIxODAuMTg0LjEuMSIsCiAgICAgICAgICAiMTgwLjE4NC4yLjIiLAogICAgICAgICAgIjEwMS4yMjYuNC42IiwKICAgICAgICAgICIyMTguMzAuMTE4LjYiLAogICAgICAgICAgIjEyMy4xMjUuODEuNiIsCiAgICAgICAgICAiMTQwLjIwNy4xOTguNiIsCiAgICAgICAgICAiMS4yLjQuOCIsCiAgICAgICAgICAiMjEwLjIuNC44IiwKICAgICAgICAgICI1Mi44MC42Ni42NiIsCiAgICAgICAgICAiMTE3LjUwLjIyLjIyIiwKICAgICAgICAgICIyNDAwOjdmYzA6ODQ5ZToyMDA6OjQiLAogICAgICAgICAgIjI0MDQ6YzJjMDo4NWQ4OjkwMTo6NCIsCiAgICAgICAgICAiMTE3LjUwLjEwLjEwIiwKICAgICAgICAgICI1Mi44MC41Mi41MiIsCiAgICAgICAgICAiMjQwMDo3ZmMwOjg0OWU6MjAwOjo4IiwKICAgICAgICAgICIyNDA0OmMyYzA6ODVkODo5MDE6OjgiLAogICAgICAgICAgIjExNy41MC42MC4zMCIsCiAgICAgICAgICAiNTIuODAuNjAuMzAiCiAgICAgICAgXSwKICAgICAgICAib3V0Ym91bmRUYWciOiAiZGlyZWN0IiwKICAgICAgICAidHlwZSI6ICJmaWVsZCIKICAgICAgfSwKICAgICAgewogICAgICAgICJkb21haW4iOiBbCiAgICAgICAgICAiZG9tYWluOmFsaWRucy5jb20iLAogICAgICAgICAgImRvbWFpbjpkb2gucHViIiwKICAgICAgICAgICJkb21haW46ZG90LnB1YiIsCiAgICAgICAgICAiZG9tYWluOjM2MC5jbiIsCiAgICAgICAgICAiZG9tYWluOm9uZWRucy5uZXQiCiAgICAgICAgXSwKICAgICAgICAib3V0Ym91bmRUYWciOiAiZGlyZWN0IiwKICAgICAgICAidHlwZSI6ICJmaWVsZCIKICAgICAgfSwKICAgICAgewogICAgICAgICJpcCI6IFsKICAgICAgICAgICJnZW9pcDpjbiIKICAgICAgICBdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJkaXJlY3QiLAogICAgICAgICJ0eXBlIjogImZpZWxkIgogICAgICB9LAogICAgICB7CiAgICAgICAgImRvbWFpbiI6IFsKICAgICAgICAgICJnZW9zaXRlOmNuIgogICAgICAgIF0sCiAgICAgICAgIm91dGJvdW5kVGFnIjogImRpcmVjdCIsCiAgICAgICAgInR5cGUiOiAiZmllbGQiCiAgICAgIH0KICAgIF0KICB9Cn0=
+{
+  "dns": {
+    "hosts": {
+      "geosite:category-ads-all": "127.0.0.1",
+      "domain:googleapis.cn": "googleapis.com",
+      "dns.alidns.com": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ],
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dot.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.quad9.net": [
+        "9.9.9.9",
+        "149.112.112.112",
+        "2620:fe::fe",
+        "2620:fe::9"
+      ],
+      "common.dot.dns.yandex.net": [
+        "77.88.8.8",
+        "77.88.8.1",
+        "2a02:6b8::feed:0ff",
+        "2a02:6b8:0:1::feed:0ff"
+      ]
+    },
+    "servers": [
+      "1.1.1.1",
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
+        ]
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net",
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "skipFallback": true
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "46994a95-30f2-466b-9ab8-3a6513d8afb5",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "denoban.pages.dev",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "denoban.pages.dev"
+          },
+          "path": "/?ed=2048"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "🇩🇪 زاپاس 🇩🇪",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "port": "443",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5",
+          "223.6.6.6",
+          "2400:3200::1",
+          "2400:3200:baba::1",
+          "119.29.29.29",
+          "1.12.12.12",
+          "120.53.53.53",
+          "2402:4e00::",
+          "2402:4e00:1::",
+          "180.76.76.76",
+          "2400:da00::6666",
+          "114.114.114.114",
+          "114.114.115.115",
+          "114.114.114.119",
+          "114.114.115.119",
+          "114.114.114.110",
+          "114.114.115.110",
+          "180.184.1.1",
+          "180.184.2.2",
+          "101.226.4.6",
+          "218.30.118.6",
+          "123.125.81.6",
+          "140.207.198.6",
+          "1.2.4.8",
+          "210.2.4.8",
+          "52.80.66.66",
+          "117.50.22.22",
+          "2400:7fc0:849e:200::4",
+          "2404:c2c0:85d8:901::4",
+          "117.50.10.10",
+          "52.80.52.52",
+          "2400:7fc0:849e:200::8",
+          "2404:c2c0:85d8:901::8",
+          "117.50.60.30",
+          "52.80.60.30"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      }
+    ]
+  }
+}
