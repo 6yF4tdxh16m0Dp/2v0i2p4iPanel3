@@ -1,16 +1,14 @@
 {
   "users": [
     {
-      "username": "admin",
-      "password": "123456"
+      "username": "user1",
+      "password": "pass1",
+      "device_ids": ["193d6b99e9b47160", "x9y8z7w6v5u4t3s2"]
     },
     {
-      "username": "user1", 
-      "password": "password123"
-    },
-    {
-      "username": "test",
-      "password": "test123"
+      "username": "user2", 
+      "password": "pass2",
+      "device_ids": ["m1n2o3p4q5r6s7t8"]
     }
   ]
 }
