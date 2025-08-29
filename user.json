@@ -1,1 +1,14 @@
-ewogICJ1c2VycyI6IFsKICAgIHsKICAgICAgInVzZXJuYW1lIjogInVzZXIxIiwKICAgICAgInBhc3N3b3JkIjogInBhc3MxMiIsCiAgICAgICJkZXZpY2VfaWRzIjogWyIxOTNkNmI5OWU5YjQ3MTYwIl0KICAgIH0sCiAgICB7CiAgICAgICJ1c2VybmFtZSI6ICJ1c2VyMiIsIAogICAgICAicGFzc3dvcmQiOiAicGFzczIiLAogICAgICAiZGV2aWNlX2lkcyI6IFsiY2U4OTRmY2I4NzgzZTc4MCJdCiAgICB9CiAgXQp9
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "pass12",
+      "device_ids": ["193d6b99e9b47160"]
+    },
+    {
+      "username": "user2", 
+      "password": "pass2",
+      "device_ids": ["ce894fcb8783e780"]
+    }
+  ]
+}
